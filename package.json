@@ -1,0 +1,17 @@
+{
+  "name": "carbon-offset-llm",
+  "version": "1.0.0",
+  "description": "Automatically offset the carbon from your LLM API usage",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:web": "npm run dev -w apps/web",
+    "build:web": "npm run build -w apps/web"
+  },
+  "author": "Turner Bohlen",
+  "license": "MIT"
+}
