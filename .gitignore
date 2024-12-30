@@ -4,9 +4,9 @@
 .pnp.*
 
 # Next.js
-/.next
-/out
-/build
+/apps/web/.next
+/apps/web/out
+/apps/web/build
 
 # Rust
 /target

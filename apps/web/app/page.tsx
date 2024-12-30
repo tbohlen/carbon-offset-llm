@@ -27,6 +27,7 @@ interface FooterColumnProps {
 
 import { Shield, BarChart3, Code2, Leaf, Lock, CreditCard } from 'lucide-react';
 import Link from 'next/link';
+import LoginButton from '../components/login-button';
 
 const Button: React.FC<ButtonProps> = ({ 
   children, 
@@ -104,7 +105,7 @@ export default function LandingPage(): JSX.Element {
             <div className="space-x-8">
               <Button href="/docs" variant="secondary">Documentation</Button>
               <Button href="/pricing" variant="secondary">Pricing</Button>
-              <Button href="/signup">Get Started</Button>
+              <LoginButton />
             </div>
           </nav>
           

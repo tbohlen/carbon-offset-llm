@@ -11,12 +11,18 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/client/app-dir/link.js [app-rsc] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module './components/login-button'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$leaf$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Leaf$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/leaf.js [app-rsc] (ecmascript) <export default as Leaf>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/shield.js [app-rsc] (ecmascript) <export default as Shield>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chart$2d$column$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__BarChart3$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/chart-column.js [app-rsc] (ecmascript) <export default as BarChart3>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$code$2d$xml$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Code2$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/code-xml.js [app-rsc] (ecmascript) <export default as Code2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$credit$2d$card$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__CreditCard$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/credit-card.js [app-rsc] (ecmascript) <export default as CreditCard>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$lock$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Lock$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/lock.js [app-rsc] (ecmascript) <export default as Lock>");
+;
 ;
 ;
 ;
@@ -30,7 +36,7 @@ const Button = ({ children, variant = 'primary', href, className = '', ...props 
             children: children
         }, void 0, false, {
             fileName: "[project]/apps/web/app/page.tsx",
-            lineNumber: 45,
+            lineNumber: 46,
             columnNumber: 7
         }, this);
     }
@@ -40,7 +46,7 @@ const Button = ({ children, variant = 'primary', href, className = '', ...props 
         children: children
     }, void 0, false, {
         fileName: "[project]/apps/web/app/page.tsx",
-        lineNumber: 52,
+        lineNumber: 53,
         columnNumber: 5
     }, this);
 };
@@ -53,12 +59,12 @@ const FeatureCard = ({ icon: Icon, title, description })=>/*#__PURE__*/ (0, __TU
                     className: "h-8 w-8"
                 }, void 0, false, {
                     fileName: "[project]/apps/web/app/page.tsx",
-                    lineNumber: 61,
+                    lineNumber: 62,
                     columnNumber: 7
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/apps/web/app/page.tsx",
-                lineNumber: 60,
+                lineNumber: 61,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -66,7 +72,7 @@ const FeatureCard = ({ icon: Icon, title, description })=>/*#__PURE__*/ (0, __TU
                 children: title
             }, void 0, false, {
                 fileName: "[project]/apps/web/app/page.tsx",
-                lineNumber: 63,
+                lineNumber: 64,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -74,13 +80,13 @@ const FeatureCard = ({ icon: Icon, title, description })=>/*#__PURE__*/ (0, __TU
                 children: description
             }, void 0, false, {
                 fileName: "[project]/apps/web/app/page.tsx",
-                lineNumber: 64,
+                lineNumber: 65,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/apps/web/app/page.tsx",
-        lineNumber: 59,
+        lineNumber: 60,
         columnNumber: 3
     }, this);
 const StepCard = ({ icon: Icon, title, description })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -93,7 +99,7 @@ const StepCard = ({ icon: Icon, title, description })=>/*#__PURE__*/ (0, __TURBO
                         className: "h-6 w-6 text-[#006D77] mr-2"
                     }, void 0, false, {
                         fileName: "[project]/apps/web/app/page.tsx",
-                        lineNumber: 71,
+                        lineNumber: 72,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -101,13 +107,13 @@ const StepCard = ({ icon: Icon, title, description })=>/*#__PURE__*/ (0, __TURBO
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/apps/web/app/page.tsx",
-                        lineNumber: 72,
+                        lineNumber: 73,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/apps/web/app/page.tsx",
-                lineNumber: 70,
+                lineNumber: 71,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -115,13 +121,13 @@ const StepCard = ({ icon: Icon, title, description })=>/*#__PURE__*/ (0, __TURBO
                 children: description
             }, void 0, false, {
                 fileName: "[project]/apps/web/app/page.tsx",
-                lineNumber: 74,
+                lineNumber: 75,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/apps/web/app/page.tsx",
-        lineNumber: 69,
+        lineNumber: 70,
         columnNumber: 3
     }, this);
 const FooterColumn = ({ title, links })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -131,7 +137,7 @@ const FooterColumn = ({ title, links })=>/*#__PURE__*/ (0, __TURBOPACK__imported
                 children: title
             }, void 0, false, {
                 fileName: "[project]/apps/web/app/page.tsx",
-                lineNumber: 80,
+                lineNumber: 81,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -143,23 +149,23 @@ const FooterColumn = ({ title, links })=>/*#__PURE__*/ (0, __TURBOPACK__imported
                             children: link
                         }, void 0, false, {
                             fileName: "[project]/apps/web/app/page.tsx",
-                            lineNumber: 84,
+                            lineNumber: 85,
                             columnNumber: 11
                         }, this)
                     }, index, false, {
                         fileName: "[project]/apps/web/app/page.tsx",
-                        lineNumber: 83,
+                        lineNumber: 84,
                         columnNumber: 9
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/apps/web/app/page.tsx",
-                lineNumber: 81,
+                lineNumber: 82,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/apps/web/app/page.tsx",
-        lineNumber: 79,
+        lineNumber: 80,
         columnNumber: 3
     }, this);
 function LandingPage() {
@@ -182,7 +188,7 @@ function LandingPage() {
                                             className: "h-8 w-8"
                                         }, void 0, false, {
                                             fileName: "[project]/apps/web/app/page.tsx",
-                                            lineNumber: 101,
+                                            lineNumber: 102,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -190,13 +196,13 @@ function LandingPage() {
                                             children: "Carbon Offset LLM"
                                         }, void 0, false, {
                                             fileName: "[project]/apps/web/app/page.tsx",
-                                            lineNumber: 102,
+                                            lineNumber: 103,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/apps/web/app/page.tsx",
-                                    lineNumber: 100,
+                                    lineNumber: 101,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -208,7 +214,7 @@ function LandingPage() {
                                             children: "Documentation"
                                         }, void 0, false, {
                                             fileName: "[project]/apps/web/app/page.tsx",
-                                            lineNumber: 105,
+                                            lineNumber: 106,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Button, {
@@ -217,27 +223,24 @@ function LandingPage() {
                                             children: "Pricing"
                                         }, void 0, false, {
                                             fileName: "[project]/apps/web/app/page.tsx",
-                                            lineNumber: 106,
+                                            lineNumber: 107,
                                             columnNumber: 15
                                         }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Button, {
-                                            href: "/signup",
-                                            children: "Get Started"
-                                        }, void 0, false, {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(LoginButton, {}, void 0, false, {
                                             fileName: "[project]/apps/web/app/page.tsx",
-                                            lineNumber: 107,
+                                            lineNumber: 108,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/apps/web/app/page.tsx",
-                                    lineNumber: 104,
+                                    lineNumber: 105,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/apps/web/app/page.tsx",
-                            lineNumber: 99,
+                            lineNumber: 100,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -248,7 +251,7 @@ function LandingPage() {
                                     children: "Offset the Carbon Footprint of Your AI Operations"
                                 }, void 0, false, {
                                     fileName: "[project]/apps/web/app/page.tsx",
-                                    lineNumber: 112,
+                                    lineNumber: 113,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -256,7 +259,7 @@ function LandingPage() {
                                     children: "Automatically calculate and offset the environmental impact of your LLM API calls. Seamlessly integrate with OpenAI and Anthropic APIs while contributing to a sustainable future."
                                 }, void 0, false, {
                                     fileName: "[project]/apps/web/app/page.tsx",
-                                    lineNumber: 115,
+                                    lineNumber: 116,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Button, {
@@ -265,24 +268,24 @@ function LandingPage() {
                                     children: "Start Offsetting Today"
                                 }, void 0, false, {
                                     fileName: "[project]/apps/web/app/page.tsx",
-                                    lineNumber: 119,
+                                    lineNumber: 120,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/apps/web/app/page.tsx",
-                            lineNumber: 111,
+                            lineNumber: 112,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/apps/web/app/page.tsx",
-                    lineNumber: 98,
+                    lineNumber: 99,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/apps/web/app/page.tsx",
-                lineNumber: 97,
+                lineNumber: 98,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -296,7 +299,7 @@ function LandingPage() {
                             description: "We never store your API queries or responses. Your data passes through our secure infrastructure with end-to-end encryption."
                         }, void 0, false, {
                             fileName: "[project]/apps/web/app/page.tsx",
-                            lineNumber: 129,
+                            lineNumber: 130,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(FeatureCard, {
@@ -305,7 +308,7 @@ function LandingPage() {
                             description: "Track and visualize your LLM carbon footprint in real-time. Make informed decisions about your AI usage and environmental impact."
                         }, void 0, false, {
                             fileName: "[project]/apps/web/app/page.tsx",
-                            lineNumber: 134,
+                            lineNumber: 135,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(FeatureCard, {
@@ -314,18 +317,18 @@ function LandingPage() {
                             description: "Replace your existing API endpoint with ours. No code changes required beyond the endpoint URL and API key."
                         }, void 0, false, {
                             fileName: "[project]/apps/web/app/page.tsx",
-                            lineNumber: 139,
+                            lineNumber: 140,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/apps/web/app/page.tsx",
-                    lineNumber: 128,
+                    lineNumber: 129,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/apps/web/app/page.tsx",
-                lineNumber: 127,
+                lineNumber: 128,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -338,7 +341,7 @@ function LandingPage() {
                             children: "How It Works"
                         }, void 0, false, {
                             fileName: "[project]/apps/web/app/page.tsx",
-                            lineNumber: 150,
+                            lineNumber: 151,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -350,7 +353,7 @@ function LandingPage() {
                                     description: "Create an account and add your payment method. We'll generate your API key instantly."
                                 }, void 0, false, {
                                     fileName: "[project]/apps/web/app/page.tsx",
-                                    lineNumber: 152,
+                                    lineNumber: 153,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(StepCard, {
@@ -359,7 +362,7 @@ function LandingPage() {
                                     description: "Replace your existing LLM API endpoint with our proxy endpoint. No other code changes needed."
                                 }, void 0, false, {
                                     fileName: "[project]/apps/web/app/page.tsx",
-                                    lineNumber: 157,
+                                    lineNumber: 158,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(StepCard, {
@@ -368,24 +371,24 @@ function LandingPage() {
                                     description: "We'll automatically calculate and offset the carbon footprint of each API call you make."
                                 }, void 0, false, {
                                     fileName: "[project]/apps/web/app/page.tsx",
-                                    lineNumber: 162,
+                                    lineNumber: 163,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/apps/web/app/page.tsx",
-                            lineNumber: 151,
+                            lineNumber: 152,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/apps/web/app/page.tsx",
-                    lineNumber: 149,
+                    lineNumber: 150,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/apps/web/app/page.tsx",
-                lineNumber: 148,
+                lineNumber: 149,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -397,7 +400,7 @@ function LandingPage() {
                             className: "h-12 w-12 text-[#006D77] flex-shrink-0"
                         }, void 0, false, {
                             fileName: "[project]/apps/web/app/page.tsx",
-                            lineNumber: 174,
+                            lineNumber: 175,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -407,7 +410,7 @@ function LandingPage() {
                                     children: "Enterprise-Grade Security"
                                 }, void 0, false, {
                                     fileName: "[project]/apps/web/app/page.tsx",
-                                    lineNumber: 176,
+                                    lineNumber: 177,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -415,7 +418,7 @@ function LandingPage() {
                                     children: "Your security is our top priority. We operate with bank-level encryption and never store your API queries or responses. Our infrastructure is designed to be completely transparent while maintaining the highest security standards."
                                 }, void 0, false, {
                                     fileName: "[project]/apps/web/app/page.tsx",
-                                    lineNumber: 177,
+                                    lineNumber: 178,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -424,24 +427,24 @@ function LandingPage() {
                                     children: "Learn more about our security measures →"
                                 }, void 0, false, {
                                     fileName: "[project]/apps/web/app/page.tsx",
-                                    lineNumber: 181,
+                                    lineNumber: 182,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/apps/web/app/page.tsx",
-                            lineNumber: 175,
+                            lineNumber: 176,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/apps/web/app/page.tsx",
-                    lineNumber: 173,
+                    lineNumber: 174,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/apps/web/app/page.tsx",
-                lineNumber: 172,
+                lineNumber: 173,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -461,7 +464,7 @@ function LandingPage() {
                                                 className: "h-6 w-6"
                                             }, void 0, false, {
                                                 fileName: "[project]/apps/web/app/page.tsx",
-                                                lineNumber: 194,
+                                                lineNumber: 195,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -469,13 +472,13 @@ function LandingPage() {
                                                 children: "Carbon Offset LLM"
                                             }, void 0, false, {
                                                 fileName: "[project]/apps/web/app/page.tsx",
-                                                lineNumber: 195,
+                                                lineNumber: 196,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/apps/web/app/page.tsx",
-                                        lineNumber: 193,
+                                        lineNumber: 194,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -483,13 +486,13 @@ function LandingPage() {
                                         children: "Making AI sustainable, one API call at a time."
                                     }, void 0, false, {
                                         fileName: "[project]/apps/web/app/page.tsx",
-                                        lineNumber: 197,
+                                        lineNumber: 198,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/apps/web/app/page.tsx",
-                                lineNumber: 192,
+                                lineNumber: 193,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(FooterColumn, {
@@ -501,7 +504,7 @@ function LandingPage() {
                                 ]
                             }, void 0, false, {
                                 fileName: "[project]/apps/web/app/page.tsx",
-                                lineNumber: 201,
+                                lineNumber: 202,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(FooterColumn, {
@@ -513,7 +516,7 @@ function LandingPage() {
                                 ]
                             }, void 0, false, {
                                 fileName: "[project]/apps/web/app/page.tsx",
-                                lineNumber: 205,
+                                lineNumber: 206,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(FooterColumn, {
@@ -525,29 +528,29 @@ function LandingPage() {
                                 ]
                             }, void 0, false, {
                                 fileName: "[project]/apps/web/app/page.tsx",
-                                lineNumber: 209,
+                                lineNumber: 210,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/apps/web/app/page.tsx",
-                        lineNumber: 191,
+                        lineNumber: 192,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/apps/web/app/page.tsx",
-                    lineNumber: 190,
+                    lineNumber: 191,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/apps/web/app/page.tsx",
-                lineNumber: 189,
+                lineNumber: 190,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/apps/web/app/page.tsx",
-        lineNumber: 95,
+        lineNumber: 96,
         columnNumber: 5
     }, this);
 }
